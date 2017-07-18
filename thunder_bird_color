@@ -1,0 +1,30 @@
+treechildren::-moz-tree-cell {border-bottom:1px solid #fff !important;}
+
+/* 未読メール */
+treechildren::-moz-tree-cell(unread) { background-color: #CCCCFF !important; } 
+treechildren::-moz-tree-cell-text(unread) {color: blue !important;}
+
+treechildren::-moz-tree-cell(lc-FF0000) { border-bottom:1px solid #FFCCCC !important; background-color: #FFCCCC !important;} 
+treechildren::-moz-tree-cell-text(lc-FF0000) { color: #000 !important; } 
+treechildren::-moz-tree-cell(lc-FFCCCC, selected) { background-color: #FFCCCC !important; }
+treechildren::-moz-tree-cell-text(lc-FF0000, selected) { color: #000 !important; }
+
+treechildren::-moz-tree-cell(lc-FF9900) { border-bottom:1px solid #FFCC99 !important; background-color: #FFCC99 !important;}  
+treechildren::-moz-tree-cell-text(lc-FF9900) { color: #000 !important; }
+treechildren::-moz-tree-cell(lc-FFCC99, selected) { background-color: #FFCC99 !important; }
+treechildren::-moz-tree-cell-text(lc-FF9900, selected) { color: #000 !important; } 
+
+treechildren::-moz-tree-cell(lc-009900) { border-bottom:1px solid #99FF99 !important; background-color: #99FF99 !important;} 
+treechildren::-moz-tree-cell-text(lc-009900) { color: #000 !important; }
+treechildren::-moz-tree-cell(lc-99FF99, selected) { background-color: #99FF99 !important; } 
+treechildren::-moz-tree-cell-text(lc-009900, selected) { color: #000 !important; }
+
+treechildren::-moz-tree-cell(lc-3333FF) { border-bottom:1px solid #CCCCFF !important; background-color: #CCCCFF !important;} 
+treechildren::-moz-tree-cell-text(lc-3333FF) { color: #000 !important; }
+treechildren::-moz-tree-cell(lc-CCCCFF , selected) { background-color: #CCCCFF !important; }
+treechildren::-moz-tree-cell-text(lc-3333FF, selected) { color: #000 !important; } 
+
+treechildren::-moz-tree-cell(lc-993399) { border-bottom:1px solid #FFCCFF !important; background-color: #FFCCFF !important;} 
+treechildren::-moz-tree-cell-text(lc-993399) { color: #000 !important; }
+treechildren::-moz-tree-cell(lc-FFCCFF , selected) { background-color: #FFCCFF !important; } 
+treechildren::-moz-tree-cell-text(lc-993399, selected) { color: #000 !important; }
